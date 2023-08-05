@@ -64,3 +64,9 @@ button:active {
     color: rgb(142, 216, 201);
     font-weight: bolder;
 }
+
+#prev-operation{
+    grid-column: 1/ span 4;
+    text-align: right;
+    
+}
