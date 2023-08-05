@@ -13,6 +13,11 @@ const numberObject = {
 
 clearAllEl.addEventListener("click", () => {
     numberInput.value = ""
+    prevOperationEl.textContent = ""
+    numberObject = {
+        currentNumber: 0,
+        currentOperator: ''
+    }
 })
 clearOneEl.addEventListener("click", () => {
     numberInput.value = numberInput.value.slice(0, -1);
